@@ -1,42 +1,3 @@
-/* Fonts
-/* ---------------------------------------------------------- */
-
-@font-face {
-  font-family: "Helvetica Neue";
-  src: url("/assets/css/fonts/helvetivaneue/HelveticaNeue_Light.ttf");
-}
-@font-face {
-  font-family: "Helvetica Neue";
-  src: url("/assets/css/fonts/helvetivaneue/HelveticaNeue_Medium.ttf");
-  font-weight: bold;
-}
-@font-face {
-  font-family: "Helvetica Neue";
-  src: url("/assets/css/fonts/helvetivaneue/HelveticaNeueIt.ttf");
-  font-style: italic, oblique;
-}
-
-@font-face {
-  font-family: "Poppins";
-  src: url("/assets/css/fonts/Poppins/Poppins-Regular.ttf");
-}
-@font-face {
-  font-family: "Poppins";
-  src: url("/assets/css/fonts/Poppins/Poppins-SemiBold.ttf");
-  font-weight: bold;
-}
-@font-face {
-  font-family: "Poppins";
-  src: url("/assets/css/fonts/Poppins/Poppins-italic.ttf");
-  font-style: italic, oblique;
-}
-@font-face {
-  font-family: "Poppins";
-  src: url("/assets/css/fonts/Poppins/Poppins-SemiBoldItalic.ttf");
-  font-weight: bold;
-  font-style: italic, oblique;
-}
-
 /* Variables
 /* ---------------------------------------------------------- */
 
@@ -523,4 +484,43 @@ h6 {
     margin: 1.5em 0 0.5em 0;
     font-size: 1.4rem;
     font-weight: 500;
+}
+
+/* Fonts
+/* ---------------------------------------------------------- */
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("/assets/css/fonts/helvetivaneue/HelveticaNeue_Light.ttf");
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("/assets/css/fonts/helvetivaneue/HelveticaNeue_Medium.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("/assets/css/fonts/helvetivaneue/HelveticaNeueIt.ttf");
+  font-style: italic, oblique;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/assets/css/fonts/Poppins/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/assets/css/fonts/Poppins/Poppins-SemiBold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/assets/css/fonts/Poppins/Poppins-italic.ttf");
+  font-style: italic, oblique;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/assets/css/fonts/Poppins/Poppins-SemiBoldItalic.ttf");
+  font-weight: bold;
+  font-style: italic, oblique;
 }
