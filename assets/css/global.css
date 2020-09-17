@@ -1,3 +1,42 @@
+/* Fonts
+/* ---------------------------------------------------------- */
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("/assets/css/fonts/helvetivaneue/HelveticaNeue_Light.ttf");
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("/assets/css/fonts/helvetivaneue/HelveticaNeue_Medium.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("/assets/css/fonts/helvetivaneue/HelveticaNeueIt.ttf");
+  font-style: italic, oblique;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("/assets/css/fonts/Poppins/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/assets/css/fonts/Poppins/Poppins-SemiBold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/assets/css/fonts/Poppins/Poppins-italic.ttf");
+  font-style: italic, oblique;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("/assets/css/fonts/Poppins/Poppins-SemiBoldItalic.ttf");
+  font-weight: bold;
+  font-style: italic, oblique;
+}
+
 /* Variables
 /* ---------------------------------------------------------- */
 
@@ -282,7 +321,7 @@ html {
 body {
     overflow-x: hidden;
     color: color(var(--midgrey) l(-30%));
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", sans-serif;
     font-size: 1.6rem;
     line-height: 1.6em;
     font-weight: 400;
