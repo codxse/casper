@@ -489,7 +489,7 @@ h6 {
 /* Fonts
 /* ---------------------------------------------------------- */
 
-@font-face {
+/* @font-face {
   font-family: "Helvetica Neue";
   src: url("/assets/css/fonts/helvetivaneue/HelveticaNeue_Light.ttf");
 }
@@ -523,4 +523,4 @@ h6 {
   src: url("/assets/css/fonts/Poppins/Poppins-SemiBoldItalic.ttf");
   font-weight: bold;
   font-style: italic, oblique;
-}
+} */
